@@ -27,7 +27,7 @@ body {
 
 .principal {
     width: 360px;
-    height: 670px;
+    height: 600px;
     background-color: var(--main-color);
     margin: auto;
     margin-top: min(150px);
@@ -133,16 +133,7 @@ strong {
 
 .last-btn {
     margin-bottom: 50px;
-    transition: 0.5s;
-}
-
-.last-btn:hover {
-    color: transparent;
-}
-
-.last-btn:hover::after {
-    content: "07 49 04 08 62";
-    color: #007BFF;
+    display: none;
 }
 
 
@@ -156,6 +147,22 @@ strong {
     border-bottom-right-radius: 10px; 
 }
 
+
+@media (max-width: 480px) {
+        
+    body {
+        background-size: cover;
+    }
+
+    .last-btn {
+        display: flex;
+    }
+    
+    .principal {
+        height: 670px;
+    }
+
+}
 
 
 
