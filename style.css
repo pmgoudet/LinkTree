@@ -34,6 +34,7 @@ body {
     margin-bottom: min(150px);
     border-radius: 10px;
     position: relative;
+    box-shadow: 0 5px 10px black;
 }
 
 .principal__vertical-yellow-bar {
@@ -50,7 +51,9 @@ body {
 }
 
 .principal__photo {
-    margin-top: -82px;
+    margin-top: -85px;
+    margin-bottom: 15px;
+    height: 170px;
 }
 
 
@@ -130,7 +133,18 @@ strong {
 
 .last-btn {
     margin-bottom: 50px;
+    transition: 0.5s;
 }
+
+.last-btn:hover {
+    color: transparent;
+}
+
+.last-btn:hover::after {
+    content: "07 49 04 08 62";
+    color: #007BFF;
+}
+
 
 .principal__botton-yellow-bar {
     width: 100%;
@@ -147,25 +161,8 @@ strong {
 
 
 
-
-
-
-
-
-
-
-
-
-
 /*
 
-
-
-FALTA O HOVER
-TIRAR O HOVER PRA MOBILE E TABLET
-O DROP SHADOW 
-OS LINKS
-A FOTO
-
+OS LINKS minutos e telefone
 
 */ 
