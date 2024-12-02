@@ -1,6 +1,6 @@
 .savoir-plus {
     height: 100vh;
-    padding: 0 10%;
+    width: 100vw;
     display: flex;
     color: var(--cor-botao);
 }
