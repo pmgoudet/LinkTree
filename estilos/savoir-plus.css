@@ -1,5 +1,6 @@
 .savoir-plus {
     height: 100vh;
+    width: 100vw;
     /* padding: 0 10%; */
     display: flex;
 }
