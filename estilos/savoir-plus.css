@@ -1,18 +1,38 @@
 .savoir-plus {
     height: 100vh;
     width: 100vw;
-    /* padding: 0 10%; */
     display: flex;
+    color: var(--cor-botao);
 }
 
 .savoir-plus__gauche {
-    padding: 0;
     width: 50vw;
     background-color: rgb(201, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-
 
 .savoir-plus__droite {
+    padding: 8% 0 5% 0;
     width: 50vw;
-    background-color: rgb(82, 168, 168);
+    background-color: rgb(178, 216, 216);
 }
+
+.savoir-plus__titre {
+    font-size: 1.7em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.savoir-plus__gauche__concurrence-logos {
+    display: flex;
+    gap: 20px;
+}
+
+.savoir-plus__gauche__objectifs {
+    line-height: 25px;
+}
+
+
+
