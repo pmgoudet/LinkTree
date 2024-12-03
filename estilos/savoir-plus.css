@@ -11,17 +11,29 @@
 }
 
 .savoir-plus__gauche {
-    margin: 5% 10% 0 20%;
-
+    margin: 0 10% 0 20%;
     background-color: rgb(201, 255, 255);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
-.savoir-plus__droite {
-    padding: 5% 20% 0 10%;
-    background-color: rgb(178, 216, 216);
+.container-cible-concurrence {
+    display: flex;
+    flex-direction: row;
+    gap: 25%;
+}
+
+.savoir-plus__gauche__profil {
+    margin-top: 40px;
+}
+
+.savoir-plus__gauche__profil li {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    gap: 8px;
+}
+
+.savoir-plus__gauche__profil strong {
+    font-weight: 700;
 }
 
 .savoir-plus__titre {
@@ -32,12 +44,35 @@
 
 .savoir-plus__gauche__concurrence-logos {
     display: flex;
-    gap: 20px;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .savoir-plus__gauche__objectifs {
-    line-height: 25px;
+    margin-top: 50px;
 }
+
+.savoir-plus__gauche__objectifs ul {
+    display: grid;
+    grid-template: 50px 50px / 400px 400px ;
+}
+
+.savoir-plus__gauche__objectifs li {
+    align-items: center;
+}
+
+
+
+
+
+
+
+.savoir-plus__droite {
+    margin: 5% 20% 0 10%;
+    background-color: rgb(178, 216, 216);
+}
+
+
 
 
 
