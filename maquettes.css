@@ -1,0 +1,58 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    list-style-type: none;
+    overflow-x: hidden;
+}
+
+img {
+    width: 100vw;
+}
+
+
+.menu {
+    background-color: #3bd8ffe5;
+    color: var(--cor-botao);
+    padding: 10px;
+    position: fixed;
+    top: 310px;
+    left: 0px;
+    width: 110px;
+    height: 300px;
+    border-radius: 0 10px 10px 0;
+    line-height: 25px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.336);
+}
+
+li img {
+    height: 8px;
+}
+
+strong {
+    font-weight: 700;
+}
+
+h4 {
+    font-weight: 700;
+}
+
+.menu a {
+    color: var(--cor-botao);
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: var(--cor-botao);
+    text-decoration: underline;
+}
+
+.menu a:visited {
+    color: var(--cor-botao);
+}
