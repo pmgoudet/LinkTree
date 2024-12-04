@@ -1,6 +1,8 @@
 .savoir-plus {
     height: 100vh;
     width: 100vw;
+    min-height: 800px;
+    min-width: 1080px;
     display: flex;
     color: var(--cor-botao);
     align-items: center;

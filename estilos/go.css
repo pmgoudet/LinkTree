@@ -2,22 +2,30 @@
     background-color: var(--cor-primaria);
     width: 100vw;
     height: 100vh;
+    min-height: 800px;
+    min-width: 1080px;
 }
 
 .container-go {
     display: flex;
-    margin: 0 10%;
-    gap: 5%;
+    margin: 10%;
+    gap: 3%;
+}
+
+.chute {
+    display: flex;
+    align-items: center;
 }
 
 .card {
     width: 25%;
+    height: auto;
     background-color: white;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
     padding: 30px;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 30px 1fr auto;
 }
 
 .card h2 {
@@ -28,21 +36,43 @@
 }
 
 .card p {
-    font-size: 20px;
+    font-size: 15px;
     color: var(--cor-botao);
-    margin-bottom: 40px;
+    margin-top: 30px;
     line-height: 30px;
+    align-self: flex-start;
 }
 
 .card__btn {
+    width: calc(100% - 40px);
+    height: 30px;
     padding: 20px;
-    align-self: baseline;
+    margin-top: 30px;
+    align-self: flex-end;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-botao);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    transition: 0.3s;
 }
 
-.card__btn a {
-    background-color: var(--cor-botao);
-    color: white;
-    font-weight: 600;
-    padding: 20px;
-    width: 100%;
+.ready .card__btn:hover  {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
+
+.notReady h2, .notReady p {
+    color: gray;
+}
+
+.notReady .card__btn {
+    color: gray;
+    background-color: lightgray;
+    box-shadow: none;
+    font-size: 20px;
+    align-self: center;
+}
+
+
