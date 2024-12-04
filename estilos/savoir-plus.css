@@ -3,7 +3,7 @@
     width: 100vw;
     display: flex;
     color: var(--cor-botao);
-    background-color: bisque;
+    align-items: center;
 }
 
 .gauche, .droite {
@@ -12,13 +12,15 @@
 
 .savoir-plus__gauche {
     margin: 0 10% 0 20%;
-    background-color: rgb(201, 255, 255);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .container-cible-concurrence {
     display: flex;
     flex-direction: row;
-    gap: 25%;
+    gap: 20%;
 }
 
 .savoir-plus__gauche__profil {
@@ -54,25 +56,75 @@
 
 .savoir-plus__gauche__objectifs ul {
     display: grid;
-    grid-template: 50px 50px / 400px 400px ;
-}
-
-.savoir-plus__gauche__objectifs li {
+    grid-template: 50px 50px / 50% 50% ;
     align-items: center;
 }
 
-
-
-
-
-
-
-.savoir-plus__droite {
-    margin: 5% 20% 0 10%;
-    background-color: rgb(178, 216, 216);
+.savoir-plus__gauche__objectifs li {
+    display: flex;
+    align-items: center;
 }
 
+.savoir-plus__gauche__objectifs img {
+    margin-right: 10px;
+}
+    
+/* DROITE */
 
+.savoir-plus__droite {
+    margin: 0 20% 0 10%;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
 
+.savoir-plus__droite li {
+    font-weight: 600;
+    margin: 25px 0 30px 0; 
+}
 
+.droite__logo-minutos {
+    width: 30%;
+    margin-right: 10px;
+}
 
+.droite__palette-couleurs img {
+    width: 100%;
+}
+
+.savoir-plus__droite li:nth-child(6) {
+    font-weight: 400;
+    line-height: 20px;
+}    
+
+.savoir-plus__droite__charte-graphique strong {
+    font-weight: 700;
+}
+
+.savoir-plus__droite__observation {
+    margin-top: 80px;
+    line-height: 20px;
+}
+
+.container-observation {
+    display: flex;
+}
+
+.savoir-plus__droite__observation__button {
+    margin-left: 20px;
+    background-color: var(--cor-botao);
+    padding: 10px;
+    border-radius: 5px;
+    align-self: self-end;
+    transition: 0.3s;
+}
+
+.savoir-plus__droite__observation__button:hover {
+    background-color: var(--cor-primaria);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.savoir-plus__droite__observation__button a {
+    color: white;
+    padding: 20px 0;
+}

@@ -1,0 +1,49 @@
+.go {
+    background-color: var(--cor-primaria);
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-go {
+    display: flex;
+    margin: 0 10%;
+    gap: 5%;
+}
+
+.card {
+    width: 25%;
+    background-color: white;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--cor-botao);
+    margin-bottom: 30px;
+}
+
+.card p {
+    font-size: 20px;
+    color: var(--cor-botao);
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+
+.card__btn {
+    padding: 20px;
+    align-self: baseline;
+}
+
+.card__btn a {
+    background-color: var(--cor-botao);
+    color: white;
+    font-weight: 600;
+    padding: 20px;
+    width: 100%;
+}
