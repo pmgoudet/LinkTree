@@ -29,7 +29,7 @@
     width: 360px;
     height: 600px;
     background-color: var(--main-color);
-    margin: auto;
+    margin: 0 auto 30px auto;
     margin-top: min(150px);
     margin-bottom: min(150px);
     border-radius: 10px;
