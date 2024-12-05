@@ -18,10 +18,17 @@ function changeImg() {
 function button() {
     let menu = document.querySelector('.menu');
     let container = document.querySelector('.menu-container');
-
-    
+    const width = window.innerWidth;
+    if (width < 1024) {
+        if (container.style.display == 'none') {
+            container.style.display = 'block';
+        } else {
+            container.style.display = 'none';
+        }
+    }
 }
 
 changeImg();
 
 window.addEventListener('resize', changeImg);
+z
