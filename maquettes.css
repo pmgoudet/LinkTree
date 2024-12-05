@@ -16,7 +16,6 @@ img {
     width: 100vw;
 }
 
-
 .menu {
     background-color: #3bd8ffe5;
     color: var(--cor-botao);
@@ -55,4 +54,18 @@ h4 {
 
 .menu a:visited {
     color: var(--cor-botao);
+}
+
+
+@media (max-width: 1024px) {
+    
+    .menu {
+        width: auto;
+        height: auto;
+    }
+
+    .menu-container {
+        display: none;
+    }
+
 }
