@@ -139,3 +139,54 @@
     color: white;
     padding: 20px 0;
 }
+
+
+@media screen and (max-width: 480px)  {
+
+    .savoir-plus {
+        height: auto;
+        min-height: 0;
+        min-width: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gauche, .droite {
+        width: 100vw;
+    }
+
+    .savoir-plus__gauche {
+        margin: 20px;
+    }
+
+    .container-cible-concurrence {
+        gap: 40px;
+    }
+
+    .savoir-plus__titre {
+        font-size: 1.5em;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .savoir-plus__gauche__cible > img {
+        width: 35vw;
+    }
+
+    .savoir-plus__gauche__concurrence-logos img {
+        width: 28vw;
+    }
+
+    .savoir-plus__gauche__objectifs ul {
+        gap: 20px;
+    }
+
+    .savoir-plus__droite {
+        margin: 20px;
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+
+}
