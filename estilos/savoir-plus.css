@@ -178,7 +178,8 @@
     }
 
     .savoir-plus__gauche__concurrence-logos img {
-        width: 28vw;
+        width: 25vw;
+        margin: auto;
     }
 
     .savoir-plus__gauche__objectifs ul {
