@@ -46,11 +46,20 @@
     margin-bottom: 20px;
 }
 
+.savoir-plus__gauche__cible > img {
+    width: 12vw;
+}
+
 .savoir-plus__gauche__concurrence-logos {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
+
+.savoir-plus__gauche__concurrence-logos img {
+    width: 8vw;
+}
+
 
 .savoir-plus__gauche__objectifs {
     margin-top: 50px;

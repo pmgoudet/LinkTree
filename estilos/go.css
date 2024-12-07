@@ -4,11 +4,13 @@
     height: 100vh;
     min-height: 800px;
     min-width: 1080px;
+    display: flex;
+    align-items: center;
 }
 
 .container-go {
     display: flex;
-    margin: 10%;
+    margin: 0 10%;
     gap: 3%;
 }
 
