@@ -213,4 +213,8 @@
         display: none;
     }
 
+    .container-observation {
+        line-height: 30px;
+    }
+
 }
