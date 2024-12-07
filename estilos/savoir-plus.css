@@ -103,6 +103,10 @@
     width: 100%;
 }
 
+.droite__palette-couleurs img:last-child {
+    display: none;
+}
+
 .savoir-plus__droite li:nth-child(6) {
     font-weight: 400;
     line-height: 20px;
@@ -187,9 +191,25 @@
         padding: 20px;
         border-radius: 10px;
     }
-    
 
-    #page3 {
+    .droite__logo-minutos {
+        width: 29.5%;
+        margin-right: 10px;
+    }
+
+    .droite__palette-couleurs img:last-child {
+        display: block;
+    }
+
+    .droite__palette-couleurs img:first-child {
+        display: none;
+    }
+
+    .savoir-plus__droite__observation {
+        margin-top: 40px;
+    }
+
+    .savoir-plus__droite__observation__button {
         display: none;
     }
 
