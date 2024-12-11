@@ -103,6 +103,10 @@
     width: 100%;
 }
 
+.droite__palette-couleurs img:last-child {
+    display: none;
+}
+
 .savoir-plus__droite li:nth-child(6) {
     font-weight: 400;
     line-height: 20px;
@@ -138,4 +142,81 @@
 .savoir-plus__droite__observation__button a {
     color: white;
     padding: 20px 0;
+}
+
+
+
+
+@media screen and (max-width: 480px)  {
+
+    .savoir-plus {
+        height: auto;
+        min-height: 0;
+        min-width: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gauche, .droite {
+        width: 100vw;
+    }
+
+    .savoir-plus__gauche {
+        margin: 20px;
+    }
+
+    .container-cible-concurrence {
+        gap: 40px;
+    }
+
+    .savoir-plus__titre {
+        font-size: 1.5em;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .savoir-plus__gauche__cible > img {
+        width: 35vw;
+    }
+
+    .savoir-plus__gauche__concurrence-logos img {
+        width: 28vw;
+    }
+
+    .savoir-plus__gauche__objectifs ul {
+        gap: 20px;
+    }
+
+    .savoir-plus__droite {
+        margin: 20px;
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .droite__logo-minutos {
+        width: 28%;
+        margin-right: 10px;
+    }
+
+    .droite__palette-couleurs img:last-child {
+        display: block;
+    }
+
+    .droite__palette-couleurs img:first-child {
+        display: none;
+    }
+
+    .savoir-plus__droite__observation {
+        margin-top: 40px;
+    }
+
+    .savoir-plus__droite__observation__button {
+        display: none;
+    }
+
+    .container-observation {
+        line-height: 30px;
+    }
+
 }
