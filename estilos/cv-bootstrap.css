@@ -1,0 +1,15 @@
+.bg-amarelo {
+    background-color: #DAA520;
+}
+
+.cor-amarelo {
+    color: #DAA520;
+}
+
+.border-amarelo {
+    border-right: 5px solid #DAA520;
+}
+
+.max-width {
+    max-width: 1000px;
+}
