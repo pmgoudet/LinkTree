@@ -26,4 +26,12 @@ btnPixar.addEventListener('click', () => {
 function changeContext(context) {
     bgContainer.setAttribute('data-context', context);
     photo.setAttribute('src', `assets/img/photo-${context}.png`);
+    let title = document.querySelector('.principal__title');
+    if (context == "pixar") {
+        title.style.fontSize = "32px";
+    } else if (context == "japan") {
+        title.style.fontSize = "26px";
+    } else {
+        title.style.fontSize = "28px";
+    }
 }
