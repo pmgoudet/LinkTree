@@ -25,7 +25,7 @@ btnPixar.addEventListener('click', () => {
 
 function changeContext(context) {
     bgContainer.setAttribute('data-context', context);
-    photo.setAttribute('src', `assets/img/photo-${context}.png`);
+    photo.setAttribute('src', `assets/img/linktree/photo-${context}.png`);
     let title = document.querySelector('.principal__title');
     if (context == "pixar") {
         title.style.fontSize = "32px";

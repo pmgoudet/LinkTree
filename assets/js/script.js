@@ -1,3 +1,10 @@
+//////////////////////////////////////////////////////////
+///////                                         //////////
+///////           MAQUETTES - MINUTOS           //////////
+///////                                         //////////
+//////////////////////////////////////////////////////////
+
+
 
 let btn = document.querySelector('.menu-btn');
 btn.addEventListener('click', button);
@@ -8,11 +15,11 @@ function changeImg() {
     const width = window.innerWidth;
     
     if (width < 480) {
-        img.src = `../assets/img/minutos/maquettes/mobile-${page}.jpg`;
+        img.src = `../img/minutos/maquettes/mobile-${page}.jpg`;
     } else if (width >= 480 && width < 1024) {
-        img.src = `../assets/img/minutos/maquettes/tablet-${page}.jpg`;
+        img.src = `../img/minutos/maquettes/tablet-${page}.jpg`;
     } else {
-        img.src = `../assets/img/minutos/maquettes/desk-${page}.jpg`;
+        img.src = `../img/minutos/maquettes/desk-${page}.jpg`;
     }
 }
 

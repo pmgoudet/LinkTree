@@ -2,9 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-@import url(/estilos/header.css);
-@import url(/estilos/savoir-plus.css);
-@import url(/estilos/go.css);
+@import url(header-minutos.css);
+@import url(savoir-plus-minutos.css);
+@import url(go-minutos.css);
 
 
 
