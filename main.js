@@ -31,6 +31,8 @@ function changeContext(context) {
         title.style.fontSize = "32px";
     } else if (context == "japan") {
         title.style.fontSize = "26px";
+    } else if (context == "principal") {
+        title.style.fontSize = "23px";
     } else {
         title.style.fontSize = "28px";
     }

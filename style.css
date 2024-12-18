@@ -104,7 +104,6 @@ html {
 .principal__title {
     font-family: var(--title-font);
     font-weight: var(--weight);
-    font-size: var(--title-size);
     color: var(--title-color);
     text-align: center;
     font-size: 1.4rem;
