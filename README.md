@@ -32,13 +32,6 @@ Ce projet est sous licence [MIT License](LICENSE.md), ce qui signifie que vous �
 #
 ---
 
-
-<h1 align="center">
-<p>🌳 Linktree-like Website</p>
-<p></p>
-<img src="assets/img/github/printscreen-linktree.JPG" alt="Link Tree" width="100%">
-</h1>
-
 # <a href="https://pmgoudet.vercel.app/assets/pages/minutos.html" target="_blank">🔗 Project Link - GO!</a>
 
 ## 📣 The Project
