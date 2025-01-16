@@ -7,7 +7,7 @@
 }
 
 [data-context="cyberpunk"] {
-    --bg-img: url(assets/img/linktree/bg-cyberpunk.jpg);
+    --bg-img: url(assets/img/linktree/bg-cyberpunk.webp);
     --bar-color: #FB72FB;
     --shadow: 0 0 20px #FB72FB;
     --main-container-color: #111516;
@@ -19,7 +19,7 @@
 }
 
 [data-context="japan"] {
-    --bg-img: url(assets/img/linktree/bg-japan.png);
+    --bg-img: url(assets/img/linktree/bg-japan.webp);
     --bar-color: #BC002D;
     --main-container-color: #D3D3CF;
     --title-color: #BC002D;
@@ -30,7 +30,7 @@
 }
 
 [data-context="pixar"] {
-    --bg-img: url(assets/img/linktree/bg-pixar.png);
+    --bg-img: url(assets/img/linktree/bg-pixar.webp);
     --bar-color: #F6BC00;
     --main-container-color: #012D49;
     --title-color: #E9E9E9;
@@ -41,7 +41,7 @@
 }
 
 [data-context="principal"] {
-    --bg-img: url(assets/img/linktree/bg-principal.png);
+    --bg-img: url(assets/img/linktree/bg-principal.webp);
     --bar-color: #E9E9E9;
     --main-container-color: #242829;
     --title-color: #E9E9E9;
