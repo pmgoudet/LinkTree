@@ -4,7 +4,7 @@
 <img src="assets/img/github/printscreen-linktree.JPG" alt="Link Tree" width="100%">
 </h1>
 
-# <a href="https://pmgoudet.vercel.app/assets/pages/minutos.html" target="_blank">🔗 Lien du Projet - GO!</a>
+# <a href="https://pmgoudet.vercel.app/" target="_blank">🔗 Lien du Projet - GO!</a>
 
 ## 📣 Le Projet
 
